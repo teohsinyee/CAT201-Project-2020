@@ -1,0 +1,1 @@
+Scenebuilder and JavaFX are used for designing the GUI for this project.

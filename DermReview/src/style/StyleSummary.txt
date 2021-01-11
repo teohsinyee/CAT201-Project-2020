@@ -1,0 +1,2 @@
+CSS is used for styling the program.
+This can reduce repetitive manual setting in scenebuilder and more flexibility.

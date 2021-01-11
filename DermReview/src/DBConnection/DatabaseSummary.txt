@@ -1,0 +1,3 @@
+
+JDBC is used for Database connection.
+MySQL is used to store user details and product reviews.
