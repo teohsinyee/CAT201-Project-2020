@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AddCleanserReviewController">
+   <children>
+      <ComboBox fx:id="user_brand" editable="true" layoutX="15.0" layoutY="16.0" prefHeight="27.0" prefWidth="216.0" promptText="Brand" />
+      <JFXTextArea fx:id="user_comment" layoutX="15.0" layoutY="76.0" prefHeight="78.0" prefWidth="402.0" promptText="  Comment" style="-fx-background-color: #FFFFFF; -fx-border-color: #AAAAAA;">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </JFXTextArea>
+      <TextField fx:id="user_rating" layoutX="278.0" layoutY="14.0" prefHeight="32.0" prefWidth="88.0" promptText="Rating ( ? / 5)" />
+      <Button fx:id="btnSave" layoutX="442.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#HandleEvents" prefHeight="32.0" prefWidth="130.0" styleClass="button2" text="Post" />
+   </children>
+</Pane>

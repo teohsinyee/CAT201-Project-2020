@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="home" prefHeight="551.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SunscreenListController">
+   <children>
+      <JFXButton fx:id="clinique" contentDisplay="TOP" layoutX="73.0" layoutY="76.0" onAction="#cliniqueAction" prefHeight="191.0" prefWidth="242.0" text="Clinique Super Face Protector SPF 40" textFill="#161212">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="147.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true" x="788.0">
+               <image>
+                  <Image url="@../../resources/a_clinique.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font> 
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="innisfree" contentDisplay="TOP" layoutX="294.0" layoutY="79.0" onAction="#innisfreeAction" prefHeight="177.0" prefWidth="224.0" text="Innisfree Care Sunscreen SPF50+">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/a_innis.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#ff0404" fontSmoothingType="LCD" layoutX="169.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="127.00" wrappingWidth="72.91680908203125">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#df1515" layoutX="144.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RM" />
+      <Text fill="#ff0404" fontSmoothingType="LCD" layoutX="386.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="37.50" wrappingWidth="72.91680908203125">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#df1515" layoutX="356.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RM" />
+      <JFXButton fx:id="neogen" contentDisplay="TOP" layoutX="492.0" layoutY="50.0" onAction="#neogenAction" prefHeight="242.0" prefWidth="242.0" text="Neogen Day-Light Sunscreen SPF 50" textFill="#161212">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="147.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true" x="788.0">
+               <image>
+                  <Image url="@../../resources/a_neogen.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#ff0404" fontSmoothingType="LCD" layoutX="601.0" layoutY="279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="78.00" wrappingWidth="72.91680908203125">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#df1515" layoutX="582.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RM" />
+      <JFXButton fx:id="eucerin" contentDisplay="TOP" layoutX="83.0" layoutY="285.0" onAction="#eucerinAction" prefHeight="242.0" prefWidth="281.0" text="Eucerin Sensitive Protect Sun Fluid SPF 50+" textFill="#161212">
+         <graphic>
+            <ImageView fitHeight="144.0" fitWidth="179.0" layoutX="90.0" pickOnBounds="true" preserveRatio="true" x="788.0">
+               <image>
+                  <Image url="@../../resources/a_eucerin.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#ff0404" fontSmoothingType="LCD" layoutX="205.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="90.00" wrappingWidth="72.91680908203125">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#df1515" layoutX="176.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RM" />
+      <JFXButton fx:id="back" buttonType="RAISED" layoutX="91.0" layoutY="52.0" onAction="#backAction" text="Back to previous page">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <AnchorPane id="left-pane" fx:id="leftpane" layoutY="-1.0" prefHeight="552.0" prefWidth="82.0" styleClass="left-pane" stylesheets="@../style/MainStyle.css">
+         <children>
+            <JFXButton fx:id="btnHome" contentDisplay="GRAPHIC_ONLY" layoutX="5.0" layoutY="141.0" onAction="#homeAction" prefHeight="56.0" prefWidth="47.0" text="    HOME">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="47.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/home-circle-512.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="btnLogOut" contentDisplay="GRAPHIC_ONLY" layoutX="6.0" layoutY="211.0" onAction="#logoutAction" prefHeight="43.0" prefWidth="24.0" text="LOG OUT">
+               <font>
+                  <Font name="Bodoni MT" size="19.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="42.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <ImageView fitHeight="106.0" fitWidth="68.0" layoutX="8.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../resources/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="top-pane" fx:id="toppane" layoutX="82.0" prefHeight="40.0" prefWidth="611.0" styleClass="top-pane" stylesheets="@../style/MainStyle.css">
+         <children>
+            <Label contentDisplay="TEXT_ONLY" layoutX="221.0" layoutY="8.0" text="SUNSCREEN LIST" textFill="#4b66b1">
+               <font>
+                  <Font name="Segoe UI" size="19.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/home.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Label fx:id="user" alignment="TOP_LEFT" graphicTextGap="10.0" layoutX="511.0" layoutY="3.0" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: #b8c1d9; -fx-background-radius: 5;" text="Label" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/user.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="SansSerif Regular" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
