@@ -19,7 +19,6 @@ import DBConnection.DBHandler;
 
 public class AddCleanserReviewController implements Initializable{
 	
-	//annoying
 
 	@FXML
     private ComboBox<String> user_brand;
