@@ -20,8 +20,6 @@ import DBConnection.DBHandler;
 public class AddCleanserReviewController implements Initializable{
 	
 
-    //VARIABLES
-
 	@FXML
     private ComboBox<String> user_brand;
     @FXML
